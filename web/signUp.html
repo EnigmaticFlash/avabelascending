@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <title>Sign Up</title>
+        <link type="text/css" rel="stylesheet" href=stylesheet.css>
+    </head>
+    <body>
+        <div id="header"><span></span></div>
+
+        <div class="sideLeft">
+
+              <ul id="sideLink">
+                <li><a href="index.jsp">Home</a></li>
+                <li><a href="registerGuild.jsp">Register Guild</a></li>
+                <li><a href="findGuild.jsp">Find Guild</a></li>
+                <li><a href="planEvent.jsp">Plan Event</a></li>
+                <li><a href="viewEvents.jsp">View Events</a></li>
+                <li><a href="signUp.html">Sign Up</a></li>
+                <li><a href="signIn.html">Sign In</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <form action="tryRegister" method="post">
+                Profile Name: <input name="profileName" placeholder="Mr. Handsome" type="text" maxlength="10" required /><br>
+                User Name: <input name="userName" placeholder="lemein" type="text"   maxlength="15" required /><br> 
+                Password: <input name="password" placeholder="hocuspocus (5 Minimum)" type="password" maxlength="15" pattern=".{5,}" required /> <br />
+                Email: <input name="email" placeholder="blah@email.com" type="email" required /><br />
+                <br />
+                <input type="submit" value="Sign Up" />
+            </form>
+        </div>
+    </body>
+</html>

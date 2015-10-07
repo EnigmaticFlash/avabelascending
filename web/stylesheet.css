@@ -1,0 +1,111 @@
+body {
+
+background-color: black;
+margin: 0px;
+color: red;
+font-family: Verdana, Georgia, serif;
+font-size: 10px;
+
+} 
+
+#header  {
+
+overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("http://avabelascending.x10host.com/avabelTitle.png");
+    background-repeat: no-repeat;
+  
+padding: 30px;
+margin: 0px ;
+height: 20px;
+border-radius: 5px;
+ font-style: italic;
+ 
+font-size: 150%;
+
+text-align: center;
+text-shadow: 20px 20px  #972D07;
+}  
+
+#nav  {
+
+background-color: #8E0000;
+margin: 10px ;
+height: 30px;
+border-radius: 5px;
+} 
+
+.main  {
+
+background-color: #250000;
+margin-right: 10px ;
+margin-left: 160px;
+margin-top:10px;
+padding: 20px;
+border-radius: 5px;
+font-size:110%;
+} 
+
+
+.sideLeft  {
+
+background-color: #250000;
+margin-left :10px ;
+margin-right: 10px;
+margin-top:10px;
+padding: 20px;
+border-radius: 5px;
+font-size:110%;
+float: left;
+width: 100px;
+} 
+
+#sideLink  {
+list-style-type: none;
+margin-bottom: 40px;
+margin-left: -30%;
+} 
+
+li {
+color: red;
+margin-bottom: 10px;
+font-family: Verdana, Georgia, serif;
+font-size: 12px;
+
+} 
+
+a {
+color: #BB0000;
+
+
+} 
+
+
+
+span {
+    
+}
+
+
+
+input  {
+
+
+
+border-color:  #000222 #310001 #310001  #000222;
+background-color: #170000;
+color:red;
+}
+
+
+::-webkit-input-placeholder {
+
+color:#680003;
+
+}
+
+
+.centerIt{
+    text-align: center;
+}
